@@ -1,0 +1,19 @@
+.news-carousel {
+  width: 600px;
+  height: 300px;
+  background-color: pink;
+
+  .swiper-slide {
+    background-color: yellow;
+  }
+}
+
+// .news-carousel {
+//   .swiper-slide {
+//     width: 80% !important;
+
+//     @include media-breakpoint-up(sm) {
+//       width: 50% !important;
+//     }
+//   }
+// }

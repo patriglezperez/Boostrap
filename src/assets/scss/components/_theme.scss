@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: $global-font-family;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: $primary;
+  background-color: $color-gray-light;
+  font-size: var(--fs-small);
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+  &:hover {
+    color: $color-white;
+  }
+}
