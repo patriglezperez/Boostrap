@@ -41,7 +41,7 @@ footer {
   }
 }
 
-@media (min-width: $lg) {
+@include media-breakpoint-up(lg) {
   footer {
     .footer {
       height: 102px;

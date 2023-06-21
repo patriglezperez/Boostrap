@@ -4,7 +4,7 @@ const autoprefixer = require('gulp-autoprefixer')
 
 /**************** CSS task ****************/
 const css = () => {
-  return src('src/assets/scss/* .scss')
+  return src('src/assets/scss/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(dest('src/assets/css'))
