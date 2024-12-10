@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 :root {
   --f-size-banner-title: 2rem;
   --f-size-banner-subtitle: 1.1rem;
@@ -67,7 +67,7 @@
 }
 .home .carousel .carousel-item img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .home .carousel .carousel-item .carousel-caption {
   height: 70%;
@@ -138,7 +138,7 @@
   height: auto;
   max-width: 470px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .home__news__content__important__new {
   margin-left: 0px;
@@ -182,7 +182,7 @@
   }
   .home .carousel .carousel-control-prev:before,
   .home .carousel .carousel-control-next:before {
-    content: "";
+    content: '';
     position: absolute;
     height: 50px;
     width: 82px;
@@ -230,7 +230,7 @@
   }
   .home .carousel .carousel-item img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .home .carousel .carousel-caption {
     height: 70%;
@@ -290,9 +290,10 @@
     border: none;
   }
 }
+
 header {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   padding-inline: 1rem;
 }
 header .header {
@@ -352,12 +353,12 @@ header .header .navbar .navbar-nav .dropdown .dropdown-arrow {
 }
 header .header .navbar .navbar-nav .dropdown .dropdown-toggle::after {
   display: inline !important;
-  background-image: url("../../../../static/images/arrow-menu.svg");
+  background-image: url('../../../../static/images/arrow-menu.svg');
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 1rem !important;
   vertical-align: 0 !important;
-  content: "";
+  content: '';
   border-top: 0 !important;
   border-bottom: 0;
   border-right: 0.5em solid transparent;
@@ -376,7 +377,14 @@ header .header .navbar .navbar-nav .dropdown .dropdown-menu {
 header .header .navbar .navbar-nav .dropdown .dropdown-menu li {
   height: 50px;
 }
-header .header .navbar .navbar-nav .dropdown .dropdown-menu li .dropdown-item:hover {
+header
+  .header
+  .navbar
+  .navbar-nav
+  .dropdown
+  .dropdown-menu
+  li
+  .dropdown-item:hover {
   color: #00fcff;
   background-color: white;
 }
@@ -391,7 +399,8 @@ header .header .languages .ind-language {
   width: 50px;
   border-color: none;
 }
-header .header .languages .ind-language:hover, header .header .languages .ind-language:focus {
+header .header .languages .ind-language:hover,
+header .header .languages .ind-language:focus {
   color: #000000 !important;
   background-color: #00fcff;
   box-shadow: none;
@@ -482,7 +491,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 body {
@@ -516,4 +525,4 @@ a:hover {
 }
 .news-carousel .swiper-slide {
   background-color: yellow;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
